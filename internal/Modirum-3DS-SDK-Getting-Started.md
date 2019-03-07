@@ -43,9 +43,9 @@ dependencies {
     :
     :
     implementation 'com.modirum.threedsv2:modirum-sdk-development:1.0.0@aar'
-                                                //should be the appropriate aar filename ("sdk" from "sdk.aar")
-                                                //but the actual value of the "1.0.0" version is irrelevant
-                                                //since the aar is being loaded locally from the libs folder
+        //should be the appropriate aar filename ("sdk" from "sdk.aar")
+        //but the actual value of the "1.0.0" version is irrelevant
+        //since the aar is being loaded locally from the libs folder
 }
 ```
 
@@ -86,7 +86,8 @@ pod 'MI_SDK_DEVELOPMENT', :path => 'LocalPods/MI_SDK_DEVELOPMENT.podspec'
 To access the SDK, just use this import in Merchant Application:
 
 ```
-#import <MI_SDK_DEVELOPMENT/MI_SDK_DEVELOPMENT.h>  //should be the appropriate framework name
+#import <MI_SDK_DEVELOPMENT/MI_SDK_DEVELOPMENT.h>
+        //should be the appropriate framework name
 ```
 
 **Swift**
@@ -94,7 +95,8 @@ To access the SDK, just use this import in Merchant Application:
 To access the SDK from a Merchant Application that is implemented using Swift, just use this import:
 
 ```
-import MI_SDK_DEVELOPMENT  //should be the appropriate framework name
+import MI_SDK_DEVELOPMENT
+       //should be the appropriate framework name
 ```
 
 ### 2.2.2 License
@@ -110,6 +112,7 @@ The following figure shows an overview of an EMV 3DS transaction. For the detail
 #### Figure 1 - Overview of EMV 3-D Secure transaction
 
 ![figure1](https://user-images.githubusercontent.com/4307756/46349698-4d9ec180-c685-11e8-8b55-8362fac5e9d5.png)
+
 *(Please refer to “Figure 2 - Overview of EMV 3-D Secure transaction” of the Modirum 3DS SDK Technical Guide)*
 
 
